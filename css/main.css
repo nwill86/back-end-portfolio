@@ -202,7 +202,7 @@
   #projects p,
   #about p {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   
   /* set the margins & paddings for each section - these are only a suggestion :) */
@@ -425,6 +425,7 @@
   #about h4,
   #about p {
     color: #CAC691;
+    text-align: center;
   }
   
   /* -------------------- Base Header Styles -------------------- */
@@ -440,7 +441,7 @@
   }
   
   footer .contact-info {
-    width: 65%;
+    width: 75%;
     color: #152A3E;
     font-weight: bold;
   }
