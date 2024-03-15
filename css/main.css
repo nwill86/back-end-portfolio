@@ -366,7 +366,7 @@
   
   .portfolio-project figure {
     width: 100%;
-    filter: drop-shadow(1px 2px 6px lightgrey);
+    filter: drop-shadow(1px 2px 6px #152A3E);
   }
   
   .flex-fill {
