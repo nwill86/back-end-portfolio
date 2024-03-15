@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/normailze.css">
+  <title>Natasha Williams | Back End Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normailze.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -20,186 +20,222 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <header class="homepage-hero">
+
+  <header>
     <div class="content-wrapper">
-      <h1>Natasha Williams</h1>
       <nav>
         <ul>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#contact" id="contact-link">Contact Me</a></li>
         </ul>
       </nav>
-      <h1>Hi, My name is Natasha Williams!</h1>
-    </div>
-  </header>
-  <main>
-    <section id="opening-header">
-      <div class="content-wrapper">
+      <div class="home-title">
+        <h1>Hi, I'm Natasha Williams!</h1>
         <h2>I am an experienced Back End Developer who crafts robust and efficient systems that power seamless user
-          experiences. I thrive on solving complex puzzles behind the scenes, ensuring that applications run smoothly
-          and securely.
+          experiences.
         </h2>
       </div>
-    </section>
+    </div>
+  </header>
+
+  <main>
     <section id="skills">
       <div class="content-wrapper">
-        <h2>Developer Skills</h2>
+        <h3 class="skills-header">Skills</h3>
+        <h4>Developer Skills</h4>
         <div class="skill-list">
-          <img src="img/react-logo.png" alt="react-icon">
-          <h3>React</h3>
+          <p class="skill">React</p>
+          <p class="skill">Python</p>
+          <p class="skill">SQL Databases</p>
+          <p class="skill">Web Scraping & APIs</p>
         </div>
-        <div class="skill-list">
-          <img src="img/Python-logo-notext.svg.png" alt="python-icon">
-          <h3>Python</h3>
+        <h4>Tech Stack</h4>
+        <div class="tool-wrapper">
+          <p class="tool">Git & Github</p>
+          <p class="tool">Visual Studio Code</p>
+          <p class="tool">Netlify</p>
+          <p class="tool">CodeSandbox</p>
+          <p class="tool">Replit</p>
         </div>
-        <div class="skill-list">
-          <img src="img/sql-database-generic.svg" alt="sql-icon">
-          <h3>SQL Databases</h3>
-        </div>
-        <div class="skill-list">
-          <img src="img/pencil-icon.png" alt="pencil-icon">
-          <h3>Web Scraping & APIs</h3>
-        </div>
-        <h2>Tech Stack</h2>
-        <div class="skill-list">
-          <img src="img/git-icon.png" alt="git-icon">
-          <h3>Git & Github</h3>
-        </div>
-        <div class="skill-list">
-          <img src="img/visual-studio-code-logo.png" alt="vscode-icon">
-          <h3>Visual Studio Code</h3>
-        </div>
-        <div class="skill-list">
-          <img src="img/Netlify_logo_(2).svg.png" alt="netlify-icon">
-          <h3>Netlify</h3>
-          <div class="skill-list">
-            <img src="img/code-sandbox-logo.png" alt="codesandbox-icon">
-            <h3>CodeSandbox</h3>
-          </div>
-          <div class="skill-list">
-            <img src="img/New_Replit_Logo.svg.png" alt="replit-icon">
-            <h3>Replit</h3>
-          </div>
-        </div>
-      </div>
     </section>
-    <section id="projects">
+    <article class="portfolio">
+      <section id="projects">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3>
+          <div class="portfolio-wrapper">
+            <div class="portfolio-project">
+              <figure>
+                <a href="https://codesandbox.io/p/sandbox/sticky-note-ui-final-qdxdzt?file=%2Fsrc%2FApp.js"
+                  target="_blank"><img src="img/sticky-note.png" alt="Sticky Note Project"></a>
+              </figure>
+              <h4>Super Sticky Notes</h4>
+              <p class="project-description">An interactive sticky note app that allows the user to add, save, delete,
+                and search for notes. This
+                interactive UI was created from a static UI.
+              </p>
+              <p>
+                <span>Skills: </span>
+                ES6, JSX, Managing data flow, Manipulate the DOM
+              </p>
+              <p class="flex-fill">
+                <span>Tools: </span>
+                CodeSandbox, Props, State
+              </p>
+              <a class="project-link"
+                href="https://codesandbox.io/p/sandbox/sticky-note-ui-final-qdxdzt?file=%2Fsrc%2FApp.js"
+                target="_blank">Live Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href="https://nwill86-quotivation.netlify.app/" target="_blank"><img src="img/quotivation.png"
+                    alt="Quotivation App"></a>
+              </figure>
+              <h4>Quotivation</h4>
+              <p class="project-description">A motivational app that allows users to store and favorite inspirational
+                quotes. Built with React using
+                modern coding techniques.
+              </p>
+              <p>
+                <span>Skills: </span>
+                Array & object destructuring, Conditional rendering, Deploying a React app, useEffect hook, useState
+                hook
+              </p>
+              <p class="flex-fill">
+                <span>Tools: </span>
+                Netlify
+              </p>
+              <a class="project-link" href="https://nwill86-quotivation.netlify.app/" target="_blank">Live
+                Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href="https://replit.com/@natasharenee86/SuperVillain-Trading-Card-App" target="_blank"><img
+                    src="img/female-supervillain.png" alt="quotivation app"></a>
+              </figure>
+              <h4>Female Supervillain Trading Card App</h4>
+              <p class="project-description">An interactive trading card app that allows users to add and remove trading
+                cards. The user has the
+                capability to input a name, description, interests, and image of the supervillain that they would like
+                to add.
+              </p>
+              <p>
+                <span>Skills: </span>
+                Python, Jinja Templating, REST API Framework, SQL Databases
+              </p>
+              <p class="flex-fill">
+                <span>Tools: </span>
+                Replit
+              </p>
+              <a class="project-link" href="https://replit.com/@natasharenee86/SuperVillain-Trading-Card-App"
+                target="_blank">Live
+                Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href="https://replit.com/@natasharenee86/Personal-Assistant-App" target="_blank"><img
+                    src="img/personal-assistant.png" alt="personal assistant app"></a>
+              </figure>
+              <h4>Personal Assistant App</h4>
+              <p class="project-description">A dynamic personal assistant app to recall important birthdays, create a
+                to-do
+                list, and manage personal
+                contacts using lists, control structures, loops, classes, files, and dictionaries.
+              </p>
+              <p>
+                <span>Skills: </span>
+                Python, Classes and Objects, Computational Thinking, Control Structures, Data Types, Functions, Loops,
+                Object-Oriented Programming, Variables
+              </p>
+              <p class="flex-fill">
+                <span>Tools: </span>
+                Replit
+              </p>
+              <a class="project-link" href="https://replit.com/@natasharenee86/Personal-Assistant-App"
+                target="_blank">Live
+                Page</a>
+            </div>
+      </section>
+    </article>
+    <section id="about">
       <div class="content-wrapper">
-        <h2>Projects</h2>
-        <div>
-          <a href="https://codesandbox.io/p/sandbox/sticky-note-ui-final-qdxdzt?file=%2Fsrc%2FApp.js"
-            target="_blank"><img src="img/sticky-note.png" alt="sticky-note"></a>
-          <h3>Super Sticky Notes</h3>
-          <p>An interactive sticky note app that allows the user to add, save, delete, and search for notes. This
-            interactive UI was created from a static UI.
-          </p>
-          <h3>Skills:</h3>
-          <p>
-            ES6, JSX, Managing data flow, Manipulate the DOM</p>
-          <h3>Tools:</h3>
-          <p>
-            CodeSandbox</p>
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/Natasha Williams.JPG" alt="natasha in green glasses">
+          </figure>
+          <div class="about-info">
+            <h3>Hi! I'm Natasha Williams.</h3>
+            <h4>I am an experienced Back End Developer who thrives on solving complex puzzles behind the scenes,
+              ensuring that applications run smoothly
+              and securely.</h4>
+            <p class="about-text">Development is my creative playground. The thrill of transforming abstract ideas into
+              tangible code fuels
+              my passion. Whether it’s optimizing database queries or architecting microservices, I relish the
+              challenge. Plus, the ever-evolving tech landscape keeps me on my toes—there’s always something new to
+              learn! When I’m not immersed in code, you’ll find me creating music, singing, exploring quirky coffee
+              shops, listening to a podcast or audio book.
+            </p>
+            <p>
+              <span>Can't wait to work with you!</span>
+            </p>
+          </div>
         </div>
-        <div class="button">
-          <a href="https://codesandbox.io/p/sandbox/sticky-note-ui-final-qdxdzt?file=%2Fsrc%2FApp.js"
-            target="_blank"><button>Live Page</button></a>
-        </div>
-        <div>
-          <a href="https://nwill86-quotivation.netlify.app/" target="_blank"><img src="img/quotivation.png"
-              alt="quotivation app"></a>
-          <h3>Quotivation</h3>
-          <p>A motivational app that allows users to store and favorite inspirational quotes. Built with React using
-            modern coding techniques.
-          </p>
-          <h3>Skills:</h3>
-          <p>
-            Array & object destructuring, Conditional rendering, Deploying a React app, useEffect hook, useState hook
-          </p>
-          <h3>Tools:</h3>
-          <p>
-            Netlify</p>
-        </div>
-        <div class="button"><a href="https://nwill86-quotivation.netlify.app/" target="_blank"><button>Live
-              Page</button></a></div>
       </div>
-      <div>
-        <a href="https://replit.com/@natasharenee86/SuperVillain-Trading-Card-App" target="_blank"><img
-            src="img/female-supervillain.png" alt="quotivation app"></a>
-        <h3>Female Supervillain Trading Card App</h3>
-        <p>An interactive trading card app that allows users to add and remove trading cards. The user has the
-          capability to input a name, description, interests, and image of the supervillain that they would like to add.
-        </p>
-        <h3>Skills:</h3>
-        <p>
-          Python, Jinja Templating, REST API Framework, SQL Databases
-        </p>
-        <h3>Tools:</h3>
-        <p>
-          Replit</p>
-      </div>
-      <div class="button">
-        <a href="https://replit.com/@natasharenee86/SuperVillain-Trading-Card-App" target="_blank"><button>Live
-            Page</button></a>
-      </div>
-      </div>
-      <div>
-        <a href="https://replit.com/@natasharenee86/Personal-Assistant-App" target="_blank"><img
-            src="img/personal-assistant.png" alt="personal assistant app"></a>
-        <h3>Personal Assistant App</h3>
-        <p>A dynamic personal assistant app to recall important birthdays, create a to-do list, and manage personal
-          contacts using lists, control structures, loops, classes, files, and dictionaries.
-        </p>
-        <h3>Skills:</h3>
-        <p>
-          Python, Classes and Objects, Computational Thinking, Control Structures, Data Types, Functions, Loops,
-          Object-Oriented Programming, Variables
-        </p>
-        <h3>Tools:</h3>
-        <p>
-          Replit</p>
-      </div>
-      <div class="button"> <a href="https://replit.com/@natasharenee86/Personal-Assistant-App"
-          target="_blank"><button>Live Page</button></a></div>
-      </div>
-    </section>
-    <section>
-      <div class="content-wrapper">
-        <div class="about">
-          <img src="img/Natasha Williams.JPG" alt="natasha in green glasses">
-          <h2>Hi! I'm Natasha Williams!</h2>
-          <p>Development is my creative playground. The thrill of transforming abstract ideas into tangible code fuels
-            my passion. Whether it’s optimizing database queries or architecting microservices, I relish the challenge.
-            Plus, the ever-evolving tech landscape keeps me on my toes—there’s always something new to learn!
-          </p>
-
-        </div>
     </section>
   </main>
   <footer id="contact">
     <div class="content-wrapper">
-      <div class="contact-info">
-        <h2>Let's Connect</h2>
-        <h3 id="email-heager">Hire Me</h3>
-        <img src="img/envelope.png" alt="envelope" id="envelope-icon">
-        <a href="mailto:narewproductionsllc@gmail.com">Natasha Williams</a>
-        <p>330-858-7472</p>
-        <h3 id="socialmedia-header">Follow Me</h3>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/natasha-williams-711b16265" target="_blank"><img
-                src="img/linkedin.png" alt="linkedin logo"></a></li>
-          <li><a href="https://github.com/" target="_blank"><img src="img/github.png" alt="github logo"></a>
-          </li>
-        </ul>
-        <h3 id="meetup-header">Meet Me</h3>
-        <p>Sandy Springs, GA<br> Let's meetup or <a href="https://calendly.com/narewproductionsllc/30min" target="_blank">schedule a one on one call!</a></p>
+      <h3>Let's Connect</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h5 class="contact-title">Hire Me</h5>
+          <p>330-858-7472</p>
+          <p>narewproductionsllc@gmail.com</p>
+        </div>
+        <div class="contact-info follow-section">
+          <h5 class="contact-title">Follow Me</h5>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/natasha-williams-711b16265" target="_blank">
+                <i class="fab fa-linkedin-in">
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github">
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Meet Me</h5>
+          <p>Sandy Springs, GA</p>
+          <p>Let's meetup or <a href="https://calendly.com/narewproductionsllc/30min" target="_blank">schedule a one on
+              one call!</a></p>
+        </div>
       </div>
-      <p>Copyright 2024 | Natasha Williams</p>
+      <p>Copyright
+        <script>document.write(new Date().getFullYear())</script>
+        | Natasha Williams
+      </p>
+    </div>
     </div>
   </footer>
 
