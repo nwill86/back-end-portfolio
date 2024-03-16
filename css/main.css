@@ -1,31 +1,9 @@
-/*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
    html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
   }
   
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
   
   ::-moz-selection {
     background: #b3d4fc;
@@ -37,9 +15,6 @@
     text-shadow: none;
   }
   
-  /*
-   * A better looking default horizontal rule
-   */
   
   hr {
     display: block;
@@ -49,13 +24,7 @@
     margin: 1em 0;
     padding: 0;
   }
-  
-  /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
-  
+
   audio,
   canvas,
   iframe,
@@ -65,9 +34,7 @@
     vertical-align: middle;
   }
   
-  /*
-   * Remove default fieldset styles.
-   */
+
   
   fieldset {
     border: 0;
@@ -75,25 +42,18 @@
     padding: 0;
   }
   
-  /*
-   * Allow only vertical resizing of textareas.
-   */
   
   textarea {
     resize: vertical;
   }
   
-  /* ==========================================================================
-     Author's custom styles
-     ========================================================================== */
   
-  /* General Styles */
   body {
     font-size: 1em;
     font-family: 'Lekton', sans-serif;
     color: #152A3E;
     background-color: #CAC691;
-    /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
+
   }
   
   ul,
@@ -183,7 +143,7 @@
     font-style: normal;
   }
   
-  /* Structural Styles */
+
   header,
   #projects,
   #skills,
@@ -205,8 +165,6 @@
     text-align: left;
   }
   
-  /* set the margins & paddings for each section - these are only a suggestion :) */
-  /* setting all margins to zero removes all browser added default margins */
   h1,
   h2,
   h3,
@@ -220,7 +178,6 @@
     margin: 0;
   }
   
-  /* then can set the margin & paddings for any element */
   header {
     padding-top: 30px;
     padding-bottom: 60px;
@@ -298,8 +255,7 @@
   .contact-title {
     margin: 0 0 40px 0;
   }
-  
-  /* -------------------- Base Header Styles -------------------- */
+
   
   header {
     background-color: #CAC691;
@@ -481,30 +437,12 @@
     color: #152A3E;
   }
   
-
-  
-  
-  /* ==========================================================================
-     Helper classes
-     ========================================================================== */
-  
-  /*
-   * Hide visually and from screen readers
-   */
   
   .hidden,
   [hidden] {
     display: none !important;
   }
   
-  /*
-   * Hide only visually, but have it available for screen readers:
-   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-   *
-   * 1. For long content, line feeds are not interpreted as spaces and small width
-   *    causes content to wrap 1 word per line:
-   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-   */
   
   .sr-only {
     border: 0;
@@ -516,14 +454,8 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
-    /* 1 */
+
   }
-  
-  /*
-   * Extends the .sr-only class to allow the element
-   * to be focusable when navigated to via the keyboard:
-   * https://www.drupal.org/node/897638
-   */
   
   .sr-only.focusable:active,
   .sr-only.focusable:focus {
@@ -536,25 +468,10 @@
     width: auto;
   }
   
-  /*
-   * Hide visually and from screen readers, but maintain layout
-   */
-  
   .invisible {
     visibility: hidden;
   }
   
-  /*
-   * Clearfix: contain floats
-   *
-   * For modern browsers
-   * 1. The space content is one way to avoid an Opera bug when the
-   *    `contenteditable` attribute is included anywhere else in the document.
-   *    Otherwise it causes space to appear at the top and bottom of elements
-   *    that receive the `clearfix` class.
-   * 2. The use of `table` rather than `block` is only necessary if using
-   *    `:before` to contain the top-margins of child elements.
-   */
   
   .clearfix::before,
   .clearfix::after {
@@ -566,13 +483,7 @@
     clear: both;
   }
   
-  /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
   @media only screen and (min-width:768px) {
-    /*Tablet styles here*/
   
     /* General styles */
     .content-wrapper {
@@ -604,8 +515,7 @@
       font-size: 1rem;
     }
   
-    /* element margins */
-    /* the list element have 20px of bottom margin already */
+
     header {
       padding-top: 60px;
       padding-bottom: 80px;
@@ -692,7 +602,7 @@
     }
   
     header nav {
-      /* keep if using hamburger menu */
+    
       display: flex;
       justify-content: center;
       width: 100%;
@@ -700,7 +610,7 @@
     }
   
     header nav ul {
-      /* keep if using hamburger menu */
+  
       display: flex;
       justify-content: space-between;
       width: 80%;
@@ -741,7 +651,7 @@
   
     .skill,
     .tool {
-      /*  width: auto; */
+
       width: 45%;
     }
   
@@ -798,7 +708,7 @@
   
   @media only screen and (min-width:1024px) {
   
-    /* added for landscape tablets and iPad Pro */
+
     .content-wrapper {
       max-width: 900px;
     }
@@ -855,8 +765,7 @@
       font-size: 1rem;
     }
   
-    /* element margins */
-    /* the list element have 20px of bottom margin already */
+ 
     header {
       padding-top: 80px;
       padding-bottom: 140px;
@@ -996,7 +905,7 @@
   
   
   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  
   }
   
   
@@ -1005,14 +914,9 @@
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  
   }
   
-  /* ==========================================================================
-     Print styles.
-     Inlined to avoid the additional HTTP request:
-     https://www.phpied.com/delay-loading-your-print-css/
-     ========================================================================== */
   
   @media print {
   
@@ -1021,7 +925,7 @@
     *::after {
       background: #fff !important;
       color: #000 !important;
-      /* Black prints faster */
+
       box-shadow: none !important;
       text-shadow: none !important;
     }
@@ -1039,10 +943,7 @@
       content: " ("attr(title) ")";
     }
   
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+  
     a[href^="#"]::after,
     a[href^="javascript:"]::after {
       content: "";
@@ -1058,10 +959,7 @@
       page-break-inside: avoid;
     }
   
-    /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+  
     thead {
       display: table-header-group;
     }
