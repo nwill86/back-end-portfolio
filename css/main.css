@@ -285,7 +285,8 @@
    }
 
    header h2 {
-     width: 100% font-weight lighter;
+     width: 100%;
+     font-weight: lighter;
    }
 
    /* -------------------- Mobile Styles - Homepage -------------------- */
